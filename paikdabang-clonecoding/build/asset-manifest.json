@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/portfolio/react/paikdabang/static/js/main.c956dc54.js",
+    "static/media/slide1.jpg": "/portfolio/react/paikdabang/static/media/slide1.033c8dd924605c5a8b0c.jpg",
+    "static/media/slide3.jpg": "/portfolio/react/paikdabang/static/media/slide3.ac4f7a8c93e17048de04.jpg",
+    "static/media/slide4.jpg": "/portfolio/react/paikdabang/static/media/slide4.c6169918364f0ef041cc.jpg",
+    "static/media/slide5.jpg": "/portfolio/react/paikdabang/static/media/slide5.48871e150c9c3d9ff0b7.jpg",
+    "static/media/slide2.jpg": "/portfolio/react/paikdabang/static/media/slide2.fea36d845ed851c9109c.jpg",
+    "index.html": "/portfolio/react/paikdabang/index.html",
+    "main.c956dc54.js.map": "/portfolio/react/paikdabang/static/js/main.c956dc54.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c956dc54.js"
+  ]
+}

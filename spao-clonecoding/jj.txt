@@ -1,0 +1,409 @@
+{/* <div className='itemWrap'>
+        <ul className='itemInner'>
+          <li className='item'>
+            <div className='imgWrap weeklyBest'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap weeklyBest'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap weeklyBest'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap weeklyBest'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap weeklyBest'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap weeklyBest'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap weeklyBest'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap weeklyBest'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li> 
+        </ul>
+      </div>
+      <h1 className='mainTitle newProduct'>신상품</h1>
+      <div className='itemWrap'>
+        <ul className='itemInner'>
+          <li className='item'>
+            <div className='imgWrap'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+          <li className='item'>
+            <div className='imgWrap'>
+                <img src='/img/weeklyBest/weeklyBestImg1.jpg' />
+                <img className='productInfo' src='/img/icon/hamburger-menu.png' />
+            </div>
+            <div className='description'>
+                <div className='productName'>
+                    <span><a href='#' className='title'>[리사이클] 베이직 퍼플리스 집업_SPFZD4TU01</a></span>
+                    <i className='wish'><img src='/img/icon/wish.png' /></i>
+                </div>
+                <div className='price'>
+                    <span className='nowPrice'>19,900</span>
+                    <span className='beforePrice'>29,900</span>
+                    <span className='discountPercent'>33%</span>
+                </div>
+                <div className='colorBox'>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                    <span className='colorChip'></span>
+                </div>
+                <div className='reviewBox'>
+                    <span className='review'>리뷰755건</span>
+                </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div className='banner'>
+        <a href='#'><img src='/img/banner01.webp' /></a>
+        <a href='#'><img src='/img/banner02.webp' /></a>
+      </div> */}

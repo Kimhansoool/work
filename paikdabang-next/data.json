@@ -1,0 +1,830 @@
+{
+    "header": [
+        {
+            "id": "M01",
+            "title": "빽다방",
+            "url": "#",
+            "subMenu": [
+                {"title": "CEO인사말", "url": "#"},
+                {"title": "빽다방 소개", "url": "#"},
+                {"title": "멤버쉽/앱 소개", "url": "#"},
+                {"title": "커피 이야기", "url": "#"},
+                {"title": "교육 이야기", "url": "#"}
+            ]
+        },
+        {
+            "id": "M02",
+            "title": "메뉴",
+            "url": "/menu/menu_new",
+            "subMenu": [
+                {"title": "신메뉴", "url": "/menu/menu_new"},
+                {"title": "커피", "url": "/menu/menu_coffee"},
+                {"title": "음료", "url": "/menu/menu_drink"},
+                {"title": "아이스크림/디저트", "url": "/menu/menu_dessert"},
+                {"title": "빽스치노", "url": "/menu/menu_ccino"}
+            ]
+        },
+        {
+            "id": "M03",
+            "title": "소식",
+            "url": "/news/all",
+            "subMenu": [
+                {"title": "소식", "url": "/news/cate_news"},
+                {"title": "이벤트", "url": "/news/cate_event"},
+                {"title": "친절 우수매장", "url": "/news/cate_kind"}
+            ]
+        },
+        {
+            "id": "M04",
+            "title": "커뮤니티",
+            "url": "/community/coffeeClass",
+            "subMenu": [
+                {"title": "커피 클래스", "url": "/community/coffeeClass"}
+            ]
+        },
+        {
+            "id": "M05",
+            "title": "매장안내",
+            "url": "/store",
+            "subMenu": [
+                {"title": "매장찾기", "url": "/store"}
+            ]
+        },
+        {
+            "id": "M06",
+            "title": "창업안내",
+            "url": "#",
+            "subMenu": [
+                {"title": "왜 빽다방인가요?", "url": "#"},
+                {"title": "창업상담 신청", "url": "#"},
+                {"title": "창업절차 및 조건", "url": "#"},
+                {"title": "인테리어", "url": "#"}
+            ]
+        },
+        {
+            "id": "M07",
+            "title": "고객의 소리",
+            "url": "#",
+            "subMenu": []
+        }
+    ],
+    "story": [
+        {
+            "title":"PAIK'S COFFEE STORY",
+            "text": "균형잡힌 바디감으로 긴 여운을 남기는 빽다방 커피를 만나보세요.",
+            "img": "img/main_sec1.jpg"
+        },
+        {
+            "title":"PAIK'S BRAND STORY",
+            "text": "합리적인 가격으로 만나는 맛있고 든든한 빽다방",
+            "img": "img/main_sec2.jpg"
+        }
+    ],
+    "menu":[
+        {
+            "title": "FRESH COFFEE",
+            "text": "신선한 뉴크롭 원두를 사용하여 추출한 커피메뉴!",
+            "img": "img/menu_sec1.jpg",
+            "state":"100",
+            "url":"/menu/menu_coffee"
+        },
+        {
+            "title": "VARIOUS BEVERAGE",
+            "text": "에이드, 티, 주스 등 취향대로 골라 먹는 즐거움!",
+            "img": "img/menu_sec2.jpg",
+            "state":"60",
+            "url":"/menu/menu_drink"
+        },
+        {
+            "title": "SWEET PAIK'S CCINO",
+            "text": "달콤 시원한 빽다방 시그니처 메뉴!",
+            "img": "img/menu_sec3.jpg",
+            "state":"40",
+            "url":"/menu/menu_ccino"
+        }
+    ],
+    "titleContainer":[
+        {
+            "id": 1,
+            "category": "menu_new",
+            "bgImage": "/img/menu_sec_newBg.jpg",
+            "title": "신메뉴",
+            "subTitle": "지금 바로 가까운 매장에서 빽다방 신메뉴를 만나 보실 수 있습니다.",
+            "tab": [
+                {
+                    "title": "신메뉴",
+                    "url": "/menu/menu_new"
+                },
+                {
+                    "title": "커피",
+                    "url": "/menu/menu_coffee"
+                },
+                {
+                    "title": "음료",
+                    "url": "/menu/menu_drink"
+                },
+                {
+                    "title": "아이스크림/디저트",
+                    "url": "/menu/menu_dessert"
+                },
+                {
+                    "title": "빽스치노",
+                    "url": "/menu/menu_ccino"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "category": "menu_coffee",
+            "bgImage": "/img/menu_sec_coffeeBg.jpg",
+            "title": "커피",
+            "subTitle": "뉴 크롭 원두를 사용하여 더욱더 신선한 커피 메뉴를 만나보세요.",
+            "tab": [
+                {
+                    "title": "신메뉴",
+                    "url": "/menu/menu_new"
+                },
+                {
+                    "title": "커피",
+                    "url": "/menu/menu_coffee"
+                },
+                {
+                    "title": "음료",
+                    "url": "/menu/menu_drink"
+                },
+                {
+                    "title": "아이스크림/디저트",
+                    "url": "/menu/menu_dessert"
+                },
+                {
+                    "title": "빽스치노",
+                    "url": "/menu/menu_ccino"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "category": "menu_drink",
+            "bgImage": "/img/menu_sec_drinkBg.jpg",
+            "title": "음료",
+            "subTitle": "퀄리티 높은 식자재를 사용하여 맛있는 음료를 제공합니다.",
+            "tab": [
+                {
+                    "title": "신메뉴",
+                    "url": "/menu/menu_new"
+                },
+                {
+                    "title": "커피",
+                    "url": "/menu/menu_coffee"
+                },
+                {
+                    "title": "음료",
+                    "url": "/menu/menu_drink"
+                },
+                {
+                    "title": "아이스크림/디저트",
+                    "url": "/menu/menu_dessert"
+                },
+                {
+                    "title": "빽스치노",
+                    "url": "/menu/menu_ccino"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "category": "menu_dessert",
+            "bgImage": "/img/menu_sec_dessertBg.jpg",
+            "title": "아이스크림/디저트",
+            "subTitle": "달콤 아이스크림부터 든든 브레드까지 다양하게 즐기세요.",
+            "tab": [
+                {
+                    "title": "신메뉴",
+                    "url": "/menu/menu_new"
+                },
+                {
+                    "title": "커피",
+                    "url": "/menu/menu_coffee"
+                },
+                {
+                    "title": "음료",
+                    "url": "/menu/menu_drink"
+                },
+                {
+                    "title": "아이스크림/디저트",
+                    "url": "/menu/menu_dessert"
+                },
+                {
+                    "title": "빽스치노",
+                    "url": "/menu/menu_ccino"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "category": "menu_ccino",
+            "bgImage": "/img/menu_sec_ccinoBg.jpg",
+            "title": "빽스치노",
+            "subTitle": "오직 빽다방에서만 만나보실 수 있는 시그니처 메뉴입니다.",
+            "tab": [
+                {
+                    "title": "신메뉴",
+                    "url": "/menu/menu_new"
+                },
+                {
+                    "title": "커피",
+                    "url": "/menu/menu_coffee"
+                },
+                {
+                    "title": "음료",
+                    "url": "/menu/menu_drink"
+                },
+                {
+                    "title": "아이스크림/디저트",
+                    "url": "/menu/menu_dessert"
+                },
+                {
+                    "title": "빽스치노",
+                    "url": "/menu/menu_ccino"
+                }
+            ]
+        }
+    ],
+    "paiksMenu":[
+        {
+            "id": "Coffee01",
+            "category": "menu_coffee",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/coffee/menu_coffee01.png",
+            "name_kor":"더블에스프레소",
+            "name_eng": "DOUBLE ESPRESSO",
+            "desc": "브라질 원두 블렌딩으로 다크초콜릿, 카라멜, 견과류의 고소함을 느낄 수 있는 에스프레소",
+            "info":{
+                "standard": "60ml",
+                "caffeine": 237,
+                "calorie": 22,
+                "sodium": 0,
+                "sugars": 0,
+                "saturatedFat": 0,
+                "protein": 1
+            }
+        },
+        {
+            "id": "Coffee02",
+            "category": "menu_coffee",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/coffee/menu_coffee02.png",
+            "name_kor":"아메리카노(HOT)",
+            "name_eng": "AMERICANO",
+            "desc": "빽다방만의 맛과 향을 더한 100% 아라비카 로스팅 원두로 뽑아내 깊고 진한 맛의 앗!메리카노",
+            "info":{
+                "standard": "400ml",
+                "caffeine": 237,
+                "calorie": 14,
+                "sodium": 4,
+                "sugars": 0,
+                "saturatedFat": 0,
+                "protein": 0
+            }
+        },
+        {
+            "id": "Coffee03",
+            "category": "menu_coffee",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/coffee/menu_coffee03.png",
+            "name_kor":"아메리카노(ICED)",
+            "name_eng": "AMERICANO",
+            "desc": "빽다방만의 맛과 향을 더한 100% 아라비카 로스팅 원두로 뽑아내 깊고 진한 맛의 앗!메리카노",
+            "info":{
+                "standard": "625ml",
+                "caffeine": 237,
+                "calorie": 13,
+                "sodium": 4,
+                "sugars": 0,
+                "saturatedFat": 0,
+                "protein": 0
+            }
+        },
+        {
+            "id": "Coffee04",
+            "category": "menu_coffee",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/coffee/menu_coffee04.png",
+            "name_kor":"원조커피(HOT)",
+            "name_eng": "ORIGINAL MIXED COFFEE",
+            "desc": "달콤한 빽다방 대표메뉴, 믹스커피 종결자!",
+            "info":{
+                "standard": "375ml",
+                "caffeine": 406,
+                "calorie": 471,
+                "sodium": 24,
+                "sugars": 57,
+                "saturatedFat": 7,
+                "protein": 3
+            }
+        },
+        {
+            "id": "Drink01",
+            "category": "menu_drink",
+            "new": true,
+            "best": false,
+            "img":"/img/menu/drink/menu_drink01.png",
+            "name_kor":"대파크림감자라떼(HOT)",
+            "name_eng": "",
+            "desc": "국내산 대파와 감자를 활용해 향긋하고 든든한 라떼",
+            "info":{
+                "standard": "450ml",
+                "caffeine": 0,
+                "calorie": 557,
+                "sodium": 315,
+                "sugars": 27,
+                "saturatedFat": 26,
+                "protein": 12
+            }
+        },
+        {
+            "id": "Drink02",
+            "category": "menu_drink",
+            "new": true,
+            "best": false,
+            "img":"/img/menu/drink/menu_drink02.png",
+            "name_kor":"대파크림감자라떼(ICED)",
+            "name_eng": "",
+            "desc": "국내산 대파와 감자를 활용해 향긋하고 든든한 라떼",
+            "info":{
+                "standard": "650ml",
+                "caffeine": 0,
+                "calorie": 530,
+                "sodium": 319,
+                "sugars": 32,
+                "saturatedFat": 25,
+                "protein": 12.2
+            }
+        },
+        {
+            "id": "Drink03",
+            "category": "menu_drink",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/drink/menu_drink03.png",
+            "name_kor":"뱅쇼(HOT)",
+            "name_eng": "VIN CHAUD",
+            "desc": "상큼한 과일향과 풍부한 시나몬향이 매력적인 메뉴",
+            "info":{
+                "standard": "355ml",
+                "caffeine": 0,
+                "calorie": 223,
+                "sodium": 12,
+                "sugars": 46,
+                "saturatedFat": 0,
+                "protein": 0.3
+            }
+        },
+        {
+            "id": "Drink04",
+            "category": "menu_drink",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/drink/menu_drink04.png",
+            "name_kor":"뱅쇼(ICED)",
+            "name_eng": "VIN CHAUD",
+            "desc": "상큼한 과일향과 풍부한 시나몬향이 매력적인 메뉴",
+            "info":{
+                "standard": "600ml",
+                "caffeine": 0,
+                "calorie": 210,
+                "sodium": 10,
+                "sugars": 46,
+                "saturatedFat": 0,
+                "protein": 0.4
+            }
+        },
+        {
+            "id": "Drink27",
+            "category": "menu_drink",
+            "new": true,
+            "best": false,
+            "img":"/img/menu/drink/menu_drink27.png",
+            "name_kor":"제주감귤주스",
+            "name_eng": "",
+            "desc": "제주 감귤이 통째로 들어가 상큼함이 가득한 주스",
+            "info":{
+                "standard": "625ml",
+                "caffeine": 0,
+                "calorie": 237,
+                "sodium": 107,
+                "sugars": 41,
+                "saturatedFat": 0.1,
+                "protein": 24
+            }
+        },
+        {
+            "id": "Dessert01",
+            "category": "menu_dessert",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/dessert/menu_dessert01.png",
+            "name_kor":"쫀득 감자빵",
+            "name_eng": "",
+            "desc": "국내산 감자가 들어있는 짭짤하고 고소한 감자빵",
+            "info":{}
+        },
+        {
+            "id": "Dessert02",
+            "category": "menu_dessert",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/dessert/menu_dessert02.png",
+            "name_kor":"쫀득 고구마빵",
+            "name_eng": "",
+            "desc": "국내산 고구마(앙금 내 수입산 혼용)가 들어있는 달달하고 고소한 고구마빵",
+            "info":{}
+        },
+        {
+            "id": "Dessert03",
+            "category": "menu_dessert",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/dessert/menu_dessert03.png",
+            "name_kor":"명란 소금빵",
+            "name_eng": "",
+            "desc": "짭조름한 명란맛과 버터의 풍미가 느껴지는 소금빵",
+            "info":{}
+        },
+        {
+            "id": "Dessert04",
+            "category": "menu_dessert",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/dessert/menu_dessert04.png",
+            "name_kor":"황치즈 크럼블 머핀",
+            "name_eng": "YELLOW CHEESE CRUMBLE MUFFIN",
+            "desc": "짭짤하고 고소한 황치즈 머핀에 달콤한 크럼블을 곁들인 단짠 디저트",
+            "info":{}
+        },
+        {
+            "id": "Ccino01",
+            "category": "menu_ccino",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/ccino/menu_ccino01.png",
+            "name_kor":"원조빽스치노(BASIC)",
+            "name_eng": "ORIGINAL MIXED COFFEE PAIK'S CCINO",
+            "desc": "원조커피의 시원한 변신~! 매력만점 커피 빽스치노",
+            "info":{
+                "standard": "625ml",
+                "caffeine": 280,
+                "calorie": 578,
+                "sodium": 122,
+                "sugars": 75,
+                "saturatedFat": 16,
+                "protein": 9
+            }
+        },
+        {
+            "id": "Ccino02",
+            "category": "menu_ccino",
+            "new": false,
+            "best": true,
+            "img":"/img/menu/ccino/menu_ccino02.png",
+            "name_kor":"원조빽스치노(SOFT)",
+            "name_eng": "ORIGINAL MIXED COFFEE PAIK'S CCINO",
+            "desc": "원조커피의 시원한 변신~! 매력만점 커피 빽스치노",
+            "info":{
+                "standard": "765ml",
+                "caffeine": 280,
+                "calorie": 785,
+                "sodium": 166,
+                "sugars": 87,
+                "saturatedFat": 26,
+                "protein": 11
+            }
+        },
+        {
+            "id": "Ccino03",
+            "category": "menu_ccino",
+            "new": false,
+            "best": false,
+            "img":"/img/menu/ccino/menu_ccino03.png",
+            "name_kor":"딸기바나나빽스치노(BASIC)",
+            "name_eng": "STRAWBERRY & BANANA PAIK'S CCINO",
+            "desc": "상큼한 딸기와 달달한 바나나의 완전 시원한 만남!",
+            "info":{
+                "standard": "625ml",
+                "caffeine": 0,
+                "calorie": 500,
+                "sodium": 108,
+                "sugars": 93,
+                "saturatedFat": 2,
+                "protein": 8
+            }
+        },
+        {
+            "id": "Ccino04",
+            "category": "menu_ccino",
+            "new": false,
+            "best": true,
+            "img":"/img/menu/ccino/menu_ccino04.png",
+            "name_kor":"딸기바나나빽스치노(SOFT)",
+            "name_eng": "STRAWBERRY & BANANA PAIK'S CCINO",
+            "desc": "상큼한 딸기와 달달한 바나나의 완전 시원한 만남!",
+            "info":{
+                "standard": "765ml",
+                "caffeine": 0,
+                "calorie": 685,
+                "sodium": 164,
+                "sugars": 138,
+                "saturatedFat": 12,
+                "protein": 11
+            }
+        }
+    ],
+    "class":[
+        {
+            "id": "C01",
+            "title_img":"/img/community/classtitle/classtitleImg_01.jpg",
+            "state": "종료",
+            "title":"4월 커피클래스",
+            "start_date": "2020-04-10",
+            "end_date": "2020-04-14",
+            "content_img": "/img/community/classcontent/content01.jpg"
+        },
+        {
+            "id": "C02",
+            "title_img":"/img/community/classtitle/classtitleImg_02.jpg",
+            "state": "종료",
+            "title":"1월 커피클래스",
+            "start_date": "2020-01-10",
+            "end_date": "2020-01-16",
+            "content_img": "/img/community/classcontent/content02.jpg"
+        },
+        {
+            "id": "C03",
+            "title_img":"/img/community/classtitle/classtitleImg_03.jpg",
+            "state": "종료",
+            "title":"12월 커피클래스",
+            "start_date": "2019-12-06",
+            "end_date": "2019-12-12",
+            "content_img": "/img/community/classcontent/content03.jpg"
+        },
+        {
+            "id": "C04",
+            "title_img":"/img/community/classtitle/classtitleImg_04.jpg",
+            "state": "종료",
+            "title":"11월 커피클래스",
+            "start_date": "2019-11-04",
+            "end_date": "2019-11-10",
+            "content_img": "/img/community/classcontent/content04.jpg"
+        }
+    ],
+    "news": [
+        {
+            "id": "N166",
+            "num": 166,
+            "group": "소식",
+            "category":"cate_news",
+            "title": "#우리가치프로젝트 국내산 농산물로 더 맛있고 든든한 신메뉴",
+            "regi_date": "2024-01-04",
+            "view": "276",
+            "content_img": "/img/news/content_n166.jpg"
+        },
+        {
+            "id": "N165",
+            "num": 165,
+            "group": "소식",
+            "category":"cate_news",
+            "title": "당류 걱정없이 즐기는 빽다방 베스트 메뉴, 원조커피 제로슈거",
+            "regi_date": "2023-12-21",
+            "view": "4192",
+            "content_img": "/img/news/content_n165.jpg"
+        },
+        {
+            "id": "N164",
+            "num": 164,
+            "group": "이벤트",
+            "category":"cate_event",
+            "title": "빽다방, 군인•경찰•소방관 위한 감사 프로모션 진행",
+            "regi_date": "2023-12-08",
+            "view": "2519",
+            "content_img": "/img/news/content_n164.png"
+        },
+        {
+            "id": "N163",
+            "num": 163,
+            "group": "소식",
+            "category":"cate_news",
+            "title": "추운 겨울, 몸을 따뜻하게 녹여줄 ‘뱅쇼’",
+            "regi_date": "2023-11-28",
+            "view": "1308",
+            "content_img": "/img/news/content_n163.jpg"
+        },
+        {
+            "id": "N162",
+            "num": 162,
+            "group": "이벤트",
+            "category":"cate_event",
+            "title": "[빽다방X놀자곰] 2024 빽다방 캘린더 프로모션 안내 *추가 진행매장 안내",
+            "regi_date": "2023-11-07",
+            "view": "37527",
+            "content_img": "/img/news/content_n162.jpg"
+        },
+        {
+            "id": "N161",
+            "num": 161,
+            "group": "소식",
+            "category":"cate_news",
+            "title": "짭짤한 황치즈 머핀에 달콤한 크럼블을 올린 단짠 디저트 ‘황치즈 크럼블 머핀’",
+            "regi_date": "2023-09-20",
+            "view": "1136",
+            "content_img": "/img/news/content_n161.jpg"
+        },
+        {
+            "id": "N155",
+            "num": 155,
+            "group": "찾아가는 빽다방",
+            "category":"cate_visiting",
+            "title": "빽다방 커피트럭이 세종대를 찾아갔어요!",
+            "regi_date": "2023-06-21",
+            "view": "1245",
+            "content_img": "/img/news/content_n155.png"
+        },
+        {
+            "id": "N04",
+            "num": 4,
+            "group": "친절우수매장",
+            "category":"cate_kind",
+            "title": "2019년 4분기 빽다방 “친절 우수매장”",
+            "regi_date": "2020-01-22",
+            "view": "20816",
+            "content_img": "/img/news/content_n04.jpg"
+        }
+    ],
+    "store": [
+        {
+            "id": "S01",
+            "region": "경상남도",
+            "city": "사천시",
+            "store_name": "삼천포점",
+            "address": "경상남도 사천시 벌리동 258-10",
+            "store_img": "/img/store/gyeongsang/s01.jpg",
+            "tel": "055-833-0740",
+            "time": {
+                "weekday_open": "09:00",
+                "weekday_close": "22:00",
+                "weekend_open": "",
+                "weekend_close": ""
+            },
+            "parking": "불가",
+            "dayoff": "연중무휴",
+            "seat": "테이블 8개/좌석 16석"
+        },
+        {
+            "id": "S02",
+            "region": "제주도",
+            "city": "서귀포시",
+            "store_name": "서귀포호근동희망점",
+            "address": "제주특별자치도 서귀포시 호근동 807-2",
+            "store_img": "/img/store/jeju/s02.png",
+            "tel": "064-900-0566",
+            "time": {
+                "weekday_open": "07:00",
+                "weekday_close": "20:00",
+                "weekend_open": "08:00",
+                "weekend_close": "19:00"
+            },
+            "parking": "가능",
+            "dayoff": "연중무휴",
+            "seat": "테이블 4개/좌석 18석"
+        },
+        {
+            "id": "S03",
+            "region": "서울특별시",
+            "city": "강북구",
+            "store_name": "수유사거리점",
+            "address": "서울특별시 강북구 수유로 84",
+            "store_img": "/img/store/metropolitancity/s03.png",
+            "tel": "070-4799-0240",
+            "time": {
+                "weekday_open": "09:00",
+                "weekday_close": "22:00",
+                "weekend_open": "",
+                "weekend_close": ""
+            },
+            "parking": "불가",
+            "dayoff": "연중무휴",
+            "seat": "없음(테이크아웃 전용매장)"
+        },
+        {
+            "id": "S04",
+            "region": "충청북도",
+            "city": "청주시",
+            "store_name": "청주방서호반우미린점",
+            "address": "충청북도 청주시 상당구 동남로 20",
+            "store_img": "/img/store/chungcheong/s04.png",
+            "tel": "070-7840-2515",
+            "time": {
+                "weekday_open": "08:00",
+                "weekday_close": "21:30",
+                "weekend_open": "",
+                "weekend_close": ""
+            },
+            "parking": "불가",
+            "dayoff": "연중무휴",
+            "seat": "테이블 7개/좌석 18석"
+        },
+        {
+            "id": "S05",
+            "region": "부산광역시",
+            "city": "연제구",
+            "store_name": "부산거제레이카운티점",
+            "address": "부산시 연제구 아시아드대로 39, 상가동 2단지 1층 120호",
+            "store_img": "/img/store/metropolitancity/s05.png",
+            "tel": "070-8287-2918",
+            "time": {
+                "weekday_open": "08:00",
+                "weekday_close": "21:00",
+                "weekend_open": "",
+                "weekend_close": ""
+            },
+            "parking": "아파트 상가 지하주차장(예정)",
+            "dayoff": "연중무휴",
+            "seat": "테이블 3개/좌석 6석"
+        },
+        {
+            "id": "S06",
+            "region": "경기도",
+            "city": "안산시",
+            "store_name": "안산초지매매단지점",
+            "address": "경기도 안산시 단원구 원포공원2로 24",
+            "store_img": "/img/store/gyeonggi/s06.png",
+            "tel": "070-8680-1079",
+            "time": {
+                "weekday_open": "08:00",
+                "weekday_close": "22:00",
+                "weekend_open": "",
+                "weekend_close": ""
+            },
+            "parking": "불가",
+            "dayoff": "연중무휴",
+            "seat": "테이블 30개/좌석 60석"
+        },
+        {
+            "id": "S07",
+            "region": "인천광역시",
+            "city": "인천시",
+            "store_name": "인천연수영남점",
+            "address": "인천 연수구 새말로107번길 15",
+            "store_img": "/img/store/metropolitancity/s07.png",
+            "tel": "032-818-0360",
+            "time": {
+                "weekday_open": "08:00",
+                "weekday_close": "21:30",
+                "weekend_open": "",
+                "weekend_close": ""
+            },
+            "parking": "불가",
+            "dayoff": "연중무휴",
+            "seat": "테이블 6개/좌석 10석"
+        },
+        {
+            "id": "S08",
+            "region": "전라북도",
+            "city": "전주시",
+            "store_name": "전주마전점",
+            "address": "전라북도 전주시 완산구 홍산로 375",
+            "store_img": "/img/store/jeolla/s08.png",
+            "tel": "063-715-2288",
+            "time": {
+                "weekday_open": "08:00",
+                "weekday_close": "22:00",
+                "weekend_open": "",
+                "weekend_close": ""
+            },
+            "parking": "후면 주차장 1대 및 인근 골목 주차 가능",
+            "dayoff": "연중무휴",
+            "seat": "테이블 8개/좌석 16석/대기석 1석"
+        },
+        {
+            "id": "S09",
+            "region": "전라북도",
+            "city": "전주시",
+            "store_name": "전주신일강변점",
+            "address": "전북 전주시 완산구 효자천변1길 27",
+            "store_img": "/img/store/jeolla/s09.jpg",
+            "tel": "063-714-2070",
+            "time": {
+                "weekday_open": "08:00",
+                "weekday_close": "21:00",
+                "weekend_open": "",
+                "weekend_close": ""
+            },
+            "parking": "불가",
+            "dayoff": "연중무휴",
+            "seat": "테이블 24개/좌석 48석"
+        }
+    ]
+}

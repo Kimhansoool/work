@@ -1,0 +1,127 @@
+/* 메인페이지 전용 스타일 */
+.food-gallery-container{
+    margin-top:40px;
+}
+
+.food-gallery{
+    display: flex;
+    flex-wrap:wrap;
+}
+.food-gallery .food-item{
+    flex:none;
+    width:25%;
+    padding:20px 10px;
+}
+.food-gallery .food-item a{
+    display: block;
+}
+.food-gallery .food-item .img-wrapper{
+    overflow: hidden;
+    width:100%;
+    height: 430px;
+}
+.food-gallery .food-item .img-wrapper img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+.food-gallery .food-item a:hover .img-wrapper img{
+    transform: scale(1.1, 1.1);
+}
+.food-gallery .food-item .food-content{
+    text-align:center;
+    padding: 10px;
+
+}
+.food-gallery .food-item .food-content h2{
+    font-size:25px;
+    margin-bottom:12px;
+    line-height: 1.3;
+    font-weight:400;
+}
+.food-gallery .food-item .food-content p{
+    font-size:16px;
+    font-weight:300;
+    line-height: 1.3;
+}
+
+@media only screen and (min-width:600px) and (max-width:767px) {
+    .food-gallery .food-item{
+        width:50%;
+    }
+    
+}
+@media only screen and (max-width:599px){
+    .food-gallery .food-item{
+        width:100%;
+    }
+}
+
+/* 페이지번호 */
+.pagenation{
+    margin:20px 0;
+    display: flex;
+    justify-content: center;
+}
+.pagenation li{
+    width:32px;
+    height:32px;
+}
+.pagenation li.active{
+    background-color: #000;
+}
+.pagenation li.active a{
+    color:#fff;
+}
+.pagenation li a{
+    display: flex;
+    width:100%;
+    height: 100%;
+    font-size:16px;
+    justify-content: center;
+    align-items: center;
+}
+.pagenation li a:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.divider{
+    margin:60px 0;
+    width:auto;
+    border-top:1px solid #ddd8;
+    border-bottom:0;
+}
+.profile-container{
+    text-align:center;
+    margin-bottom:100px;
+}
+.profile-container h2{
+    font-size:24px;
+    margin-bottom:32px; 
+    font-weight: 400;
+}
+.profile-container img{
+    max-width:100%;
+    height: auto;
+    margin-bottom:26px;
+}
+.profile-container h3{
+    font-size:22px;
+    margin-bottom:16px;
+    font-weight: 500;
+}
+.profile-container p{
+    font-size:16px;
+    font-weight:300;
+    line-height: 1.3;
+    margin-bottom:30px;
+    padding:0 25px;
+}
+.profile-container .subtit{
+    display: block;
+    margin-bottom:16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
