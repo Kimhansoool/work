@@ -20,7 +20,7 @@ const Footer = memo(() => {
   return (
     <FooterContainer>
       <p>CopyRight 2024. Kimhansol all rights reserved.</p>
-      <p>kimhs7858@gmail.com</p>
+      <p>kimhs_7858@naver.com</p>
     </FooterContainer>
   );
 });

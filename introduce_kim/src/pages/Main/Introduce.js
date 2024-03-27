@@ -268,7 +268,7 @@ const Introduce = memo(() => {
                             <h1 className='title'>그 외에도 이런 툴을 다룰 수 있어요. (Etc Skill)</h1>
                             <div className='skillInner'>
                                 <p className='etcSkill'>
-                                    Photoship | Illustrator | Figma | XD ...
+                                    Photoshop | Illustrator | Figma | XD ...
                                 </p>
                             </div>
                         </div>

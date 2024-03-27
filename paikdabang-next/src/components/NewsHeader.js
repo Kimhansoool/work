@@ -1,7 +1,10 @@
-import React, {memo, useCallback} from 'react';
+import React, {memo, useCallback, useEffect, useState} from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 import mq from '@/styles/MediaQuery';
+
+import { useSelector, useDispatch } from 'react-redux';
+import { getList } from '@/slices/NewsHeaderSlice';
 
 const NewsHeaderContainer = styled.div`
     .titleContainer{
@@ -99,15 +102,37 @@ const NewsHeaderContainer = styled.div`
 `;
 
 const NewsHeader = memo(() => {
-    const onTabClick = useCallback((e) =>{
-        const current = e.currentTarget;
-        console.log(current);
-        const TabLi = document.querySelectorAll('.Tabinner');
+    const [countIndex, setCountIndex] = useState(0);
 
-        TabLi.forEach((v, i) =>{
-            v.classList.remove("on");
-        });
-        current.classList.add("on");
+    const dispatch = useDispatch();
+    const {data, loading, error} = useSelector((state) =>state.NewsHeaderSlice);
+
+    useEffect(() =>{
+        dispatch(getList());
+    }, []);
+
+    // const onTabClick = useCallback((e) =>{
+    //     const current = e.currentTarget;
+    //     console.log(current);
+    //     const TabLi = document.querySelectorAll('.Tabinner');
+
+    //     TabLi.forEach((v, i) =>{
+    //         v.classList.remove("on");
+    //     });
+    //     current.classList.add("on");
+    // }, []);
+
+    const handleOnClick = (e, k) =>{
+
+        setCountIndex(k);
+        console.log(e.currentTarget);
+        window.localStorage.setItem("current", k);
+    };
+
+    useEffect(() =>{
+        if(localStorage.getItem('current')){
+            setCountIndex(Number(localStorage.getItem('current')));
+        }
     }, []);
 
     return (
@@ -119,11 +144,13 @@ const NewsHeader = memo(() => {
                     <p className='mainSubTitle'>다양한 이벤트와 새로운 소식을 확인하세요.</p>
                 </div>
                 <ul className='mainTab'>
-                    <li className='Tabinner on' onClick={onTabClick}><Link href='/news/all' className='titleLink'>전체보기</Link></li>
-                    <li className='Tabinner' onClick={onTabClick}><Link href='/news/cate_news' className='titleLink'>소식</Link></li>
-                    <li className='Tabinner' onClick={onTabClick}><Link href='/news/cate_event' className='titleLink'>이벤트</Link></li>
-                    <li className='Tabinner' onClick={onTabClick}><Link href='/news/cate_kind' className='titleLink'>친절우수매장</Link></li>
-                    <li className='Tabinner' onClick={onTabClick}><Link href='/news/cate_visiting' className='titleLink'>찾아가는 빽다방</Link></li>
+                    {data && data.map((v, i) =>{
+                        return(
+                            <li key={i} className={`Tabinner ${countIndex === i && 'on'}`} onClick={e => handleOnClick(e, i)}>
+                                <Link href={v.url} className='titleLink'>{v.title}</Link>
+                            </li>
+                        );
+                    })}
                 </ul>
             </div>
         </NewsHeaderContainer>

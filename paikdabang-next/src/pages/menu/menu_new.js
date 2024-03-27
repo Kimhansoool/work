@@ -298,6 +298,7 @@ const MenuNew = memo(() => {
 
     useEffect(() =>{
         dispatch(getList());
+        window.localStorage.removeItem('current');
     }, []);
 
     const filterData = useMemo(() => data?.filter((v, i) => v.new), [data]);

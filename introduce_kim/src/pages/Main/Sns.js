@@ -6,6 +6,7 @@ const SnsContainer = styled.div`
     width:100%;
     height: 500px;
     color:#fff;
+    padding-top:80px;
 
     .snsWrap{
         max-width: 1200px;

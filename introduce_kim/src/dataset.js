@@ -4,7 +4,7 @@ const dataset = {
             id: "I01",
             hashTag: [
                 {title: "김한솔"},
-                {title: "kimhs7858@gmail.com"},
+                {title: "kimhs_7858@naver.com"},
                 {title: "#근면성실"},
                 {title: "#열정있는"},
                 {title: "소통_잘하는"}
@@ -16,10 +16,10 @@ const dataset = {
                 {title: "Next.js", percent: 70},
             ],
             experience: [
-                {title: "2020 | 미림여자정보과학고등학교 뉴미디어 디자인과 졸업"},
-                {title: "2023 | 한국공학대학교(전 한국산업기술대) 제품시스템디자인공학과 졸업"},
+                {title: "2024 | 메가스터디 강남 캠퍼스 프론트엔드 개발 과정 수료"},
                 {title: "2021 - 2023 | (주) 리안 웹디자이너 재직"},
-                {title: "2024 | 메가스터디 강남 캠퍼스 프론트엔드 개발 과정 수료"}
+                {title: "2023 | 한국공학대학교(전 한국산업기술대) 제품시스템디자인공학과 졸업"},
+                {title: "2020 | 미림여자정보과학고등학교 뉴미디어 디자인과 졸업"}
             ]
         }
     ],
@@ -44,17 +44,17 @@ const dataset = {
         {
             id: "P01",
             title: "빽다방 클론코딩",
-            titImg: "/img/work/paikdabang.png",
+            titImg: "img/work/paikdabang.png",
             useLangEng: "Next.js",
             period: "2024.1.22 - 2024.2.5",
             contributon: 100,
             responsive: true,
-            url: "#"
+            url: "https://drive.google.com/file/d/1KuiCpLNrj1FflwnXpLWtTQ6lqjcA_UWv/view?usp=sharing"
         },
         {
             id: "P02",
             title: "스파오 클론코딩",
-            titImg: "./img/work/spao.png",
+            titImg: "img/work/spao.png",
             useLangEng: "React",
             period: "2023.12.15 - 2024.1.9",
             contributon: 100,
@@ -64,12 +64,12 @@ const dataset = {
         {
             id: "P03",
             title: "독도전시관 클론코딩",
-            titImg: "./img/work/dokdo.png",
+            titImg: "img/work/dokdo.png",
             useLangEng: "HTML/CSS",
             period: "2023.4.28 - 2024.7.20",
             contributon: 100,
             responsive: true,
-            url: "#"
+            url: "https://kimhansoool.github.io/portfolio/Dokdo/"
         }
     ]
 }

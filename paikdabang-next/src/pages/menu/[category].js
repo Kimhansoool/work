@@ -253,7 +253,7 @@ const PaiksMenu = styled.div`
 `;
 
 const Category = memo(() => {
-    const [countIndex, setCountIndex] = useState(0);
+    const [countIndex, setCountIndex] = useState(1);
 
     const router = useRouter();
     const {category} = router.query;
@@ -270,6 +270,22 @@ const Category = memo(() => {
         }
     }, [category]);
 
+    useEffect(() =>{
+        if(category && data2){
+            for(const item of data2){
+                for(let i = 0; i<item.tab.length; i++){
+                    const url = '/menu/' + category;
+                    
+                    // console.log(item.tab[i].url === url, item.tab[i].url, url);
+                    if(item.tab[i].url === url){
+                        setCountIndex(i);
+                        return;
+                    }
+                }
+            }
+        }
+    }, [category, data2]);
+
     // const onTabClick = useCallback((e) =>{
     //     const current = e.currentTarget;
     //     console.log(current);
@@ -283,13 +299,17 @@ const Category = memo(() => {
     // }, []);
 
     const handleOnClick = (e, k) =>{
-        const arr = [];
-        arr.push(k);
 
         setCountIndex(k);
         console.log(e.currentTarget);
-        window.localStorage.setItem("current", JSON.stringify(arr));
+        window.localStorage.setItem("current", k);
     };
+
+    useEffect(() =>{
+        if(localStorage.getItem('current')){
+            setCountIndex(Number(localStorage.getItem('current')));
+        }
+    }, []);
 
     const onInfoClick = useCallback((e) =>{
         const current = e.currentTarget;
@@ -336,6 +356,7 @@ const Category = memo(() => {
                     <li className='Tabinner' onClick={onTabClick}><Link href='/menu/menu_ccino' className='titleLink'>빽스치노</Link></li>
                 </ul>
             </div> */}
+
             {/* <div>
                 <button type='button'>바로가기</button>
                 <button type='button'>메인</button>

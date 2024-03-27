@@ -581,6 +581,28 @@
             "content_img": "/img/community/classcontent/content04.jpg"
         }
     ],
+    "newsHeader":[
+        {
+            "title": "전체보기",
+            "url": "/news/all"
+        },
+        {
+            "title": "소식",
+            "url":"/news/cate_news"
+        },
+        {
+            "title": "이벤트",
+            "url":"/news/cate_event"
+        },
+        {
+            "title": "친절우수매장",
+            "url":"/news/cate_kind"
+        },
+        {
+            "title": "찾아가는 빽다방",
+            "url":"/news/cate_visiting"
+        }
+    ],
     "news": [
         {
             "id": "N166",
