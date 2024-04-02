@@ -1,5 +1,6 @@
 import React, {memo, useEffect} from 'react';
 import styled from 'styled-components';
+import mq from '../../style/MediaQuery';
 import { NavLink } from 'react-router-dom';
 
 import { useSelector, useDispatch } from 'react-redux';
@@ -14,13 +15,22 @@ const BannerContentContainer = styled.div`
 
     .supContentWrap{
         width:100%;
-        height:480px;
+        height:auto;
         background-color: #f9f9f9;
+        padding-bottom:40px;
 
         .supContentInner{
             max-width: 1200px;
             margin:0 auto;
             padding-top:60px;
+
+            ${mq.maxWidth('xl')`
+                padding:60px 20px 0;
+            `}
+
+            ${mq.maxWidth('sm')`
+                padding:60px 30px 0;
+            `}
 
             .supConTitle{
                 font-size:30px;
@@ -53,6 +63,11 @@ const BannerContentContainer = styled.div`
                     &:nth-child(odd){
                         margin-left:0;
                     }
+
+                    ${mq.maxWidth('xl')`
+                        width:100%;
+                        margin-left:0;
+                    `}
 
                     .textWrap{
                         display: flex;
@@ -88,8 +103,20 @@ const BannerContentContainer = styled.div`
         display: flex;
         flex-wrap: wrap;
 
+        ${mq.maxWidth('xl')`
+            padding:0 20px;
+        `}
+
+        ${mq.maxWidth('sm')`
+            margin-top:60px;
+        `}
+
         .noticeInner{
             width:calc(70% - 10px);
+
+            ${mq.maxWidth('lg')`
+                width:100%;
+            `}
 
             .titleWrap{
                 display: flex;
@@ -100,6 +127,10 @@ const BannerContentContainer = styled.div`
                     margin-right:15px;
                     color:#959595;
                     font-weight: 800;
+
+                    ${mq.maxWidth('sm')`
+                        font-size:20px;
+                    `}
 
                     &.on{
                         color:#333333;
@@ -128,6 +159,10 @@ const BannerContentContainer = styled.div`
                 border-radius: 10px;
                 padding:16px 30px;
 
+                ${mq.maxWidth('sm')`
+                    margin-top:16px;
+                `}
+
                 .contentItem{
                     height:43px;
                     color:#333333;
@@ -149,10 +184,18 @@ const BannerContentContainer = styled.div`
                         .title{
                             height: auto;
                             font-size:16px;
+
+                            ${mq.maxWidth('sm')`
+                                font-size:14px;
+                            `}
                         }
 
                         .date{
                             font-size:16px;
+
+                            ${mq.maxWidth('sm')`
+                                font-size:14px;
+                            `}
                         }
 
                     }
@@ -166,6 +209,10 @@ const BannerContentContainer = styled.div`
             margin-left:20px;
             width:calc(30% - 10px);
             /* background-color: #0F7CDF; */
+
+            ${mq.maxWidth('lg')`
+                display:none;
+            `}
 
             .titleWrap{
                 display: flex;

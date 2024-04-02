@@ -1,4 +1,4 @@
-import React, {memo, useCallback, useEffect} from 'react';
+import React, {memo, useCallback, useEffect, useRef} from 'react';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 
@@ -41,6 +41,33 @@ const HeaderContainer = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        .moNav{
+            display:none;
+            width:30px;
+            height:20px;
+
+            ${mq.maxWidth('lg')`
+                display:block;
+            `}
+
+            .hambugerBtn{
+                height:100%;
+                display:flex;
+                flex-direction:column;
+                justify-content:space-between;
+
+                span{
+                    background-color:#333333;
+                    width:100%;
+                    height:2px;
+                }
+            }
+        }
+
+        ${mq.maxWidth('xl')`
+            height:70px;
+        `}
 
         .navWrap{
             display: flex;
@@ -108,6 +135,10 @@ const HeaderContainer = styled.div`
         .infoNavWrap{
             display: flex;
 
+            ${mq.maxWidth('lg')`
+                display:none;
+            `}
+
             .infoNavItem{
 
                 &:last-child::before{
@@ -118,10 +149,42 @@ const HeaderContainer = styled.div`
         }
     }
 
+    .moNavWrap{
+        display:none;
 
+        ${mq.maxWidth('lg')`
+            position:absolute;
+            top:69px;
+            height:100%;
+            right:0;
+            z-index:999;
+            width:80%;
+            background-color:#f5f5f5;
+            padding:30px;
+
+            &.on{display:block;}
+
+            .moNavItem{
+                padding:20px;
+                display:flex;
+                align-items:center;
+                // background-color:#ff0;
+                border-bottom:1px solid #d9d9d9;
+
+                .moMainLink{
+                    font-size:18px;
+
+                    &:active{
+                        font-weight:600;
+                    }
+                }
+            }
+        `}
+    }
 `;
 
 const Header = memo(() => {
+    const moNavRef = useRef();
     const dispatch = useDispatch();
     const {data, loading, error} = useSelector((state) => state.HeaderSlice);
 
@@ -150,6 +213,11 @@ const Header = memo(() => {
 
         hoverItem.style.maxHeight = '0px';
         bgHover.classList.remove('on');
+    }, []);
+
+    const onMovMenuClick = useCallback((e) =>{
+        e.preventDefault();
+        moNavRef.current.classList.toggle("on");
     }, []);
 
     return (
@@ -190,22 +258,22 @@ const Header = memo(() => {
                         <a href='/login' className='link'>로그인</a>
                     </li>
                 </ul>
-                {/* <div className='moNav' >
+                <div className='moNav' onClick={onMovMenuClick} >
                     <div className='hambugerBtn'>
                     <span></span>
                     <span></span>
                     <span></span>
                     </div>     
-                </div> */}
+                </div>
             </div>
-            {/* <ul className='moNavWrap'>
-                <li className='moNavItem'><a href='#' className='moMainLink'>취업지원</a></li>
-                <li className='moNavItem'><a href='#' className='moMainLink'>창업지원</a></li>
-                <li className='moNavItem'><a href='#' className='moMainLink'>마음지원</a></li>
-                <li className='moNavItem'><a href='#' className='moMainLink'>교육지원</a></li>
-                <li className='moNavItem'><a href='#' className='moMainLink'>금전복지</a></li>
-                <li className='moNavItem'><a href='#' className='moMainLink'>커뮤니티</a></li>
-            </ul> */}
+            <ul className='moNavWrap' ref={moNavRef}>
+                <li className='moNavItem'><NavLink to='/empSupport' className='moMainLink'>취업지원</NavLink></li>
+                <li className='moNavItem'><NavLink to='/fouSupport' className='moMainLink'>창업지원</NavLink></li>
+                <li className='moNavItem'><NavLink to='/minSupport' className='moMainLink'>마음지원</NavLink></li>
+                <li className='moNavItem'><NavLink to='/eduSupport' className='moMainLink'>교육지원</NavLink></li>
+                <li className='moNavItem'><NavLink to='/monSupport' className='moMainLink'>금전복지</NavLink></li>
+                <li className='moNavItem'><NavLink to='/communityHome' className='moMainLink'>커뮤니티</NavLink></li>
+            </ul>
         </HeaderContainer>
     );
 });

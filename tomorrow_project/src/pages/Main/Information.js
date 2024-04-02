@@ -17,8 +17,16 @@ const InfomationContainer = styled.div`
     /* background-color: #ff0; */
 
     .contentWrap{
-        max-width: 1200px;
+         max-width: 1200px;
         margin: 0 auto;
+
+        ${mq.maxWidth('xl')`
+            padding:0 20px;
+        `}
+
+        ${mq.maxWidth('sm')`
+            padding:0 30px;
+        `}
 
         .bannerWrap{
             border-radius: 10px;
@@ -40,9 +48,11 @@ const InfomationContainer = styled.div`
                 align-items: center;
                 justify-content: space-between;
                 padding:0 50px;
+                
 
                 .textInner{
                     color:#fff;
+                    padding-right:40px;
 
                     .title{
                         width:100%;
@@ -60,6 +70,12 @@ const InfomationContainer = styled.div`
                     .txt{
                         width:100%;
                         height:100%;
+                        text-align:left;
+                        line-height:1.3;
+
+                        ${mq.maxWidth('sm')`
+                            font-size:14px;
+                        `}
                     }
                 }
 
@@ -73,7 +89,9 @@ const InfomationContainer = styled.div`
                     align-items: center;
 
                     .checkBtn{
-                        /* font-size:14px; */
+                        ${mq.maxWidth('md')`
+                            font-size:14px;
+                        `}
                     }
                 }
                 
@@ -99,15 +117,13 @@ const InfomationContainer = styled.div`
                 display: flex;
                 align-items: center;
 
+                ${mq.maxWidth('sm')`
+                    padding:0 20px;
+                `}
+
                 .glider-container{
                     display: flex;
                     align-items: center;
-
-                    .prevButton{
-                        .fa-solid{
-                            font-size:30px;
-                        }
-                    }
 
                     .infoItem{
                         width:285px;
@@ -141,6 +157,10 @@ const InfomationContainer = styled.div`
                                 font-size:20px;
                                 font-weight: 600;
                                 margin-bottom:10px;
+
+                                ${mq.maxWidth('md')`
+                                    font-size:22px;
+                                `}
                             }
 
                             .subTit{
@@ -148,6 +168,10 @@ const InfomationContainer = styled.div`
                                 height:100%;
                                 font-size: 14px;
                                 color:#959595;
+
+                                ${mq.maxWidth('md')`
+                                    font-size:16px;
+                                `}
                             }
                         }
                     }
@@ -171,6 +195,7 @@ const InfomationContainer = styled.div`
 
             .govEduInner{
                 display: flex;
+                flex-wrap:wrap;
                 width:100%;
                 height: auto;
                 margin-top:60px;
@@ -180,6 +205,12 @@ const InfomationContainer = styled.div`
                     margin-left:20px;
                     border-radius: 10px;
                     border:1px solid #D9D9D9;
+
+                    ${mq.maxWidth('md')`
+                        width:100%;
+                        margin-left:0;
+                        margin-bottom:20px;
+                    `}
 
                     &:first-child{
                         margin-left:0;
@@ -193,11 +224,16 @@ const InfomationContainer = styled.div`
                         background-repeat: no-repeat;
                         background-position: center center;
                         background-size: cover;
+
+                        ${mq.maxWidth('md')`
+                            height:300px;
+                        `}
                     }
 
                     .textWrap{
                         text-align: left;
                         padding:20px 30px;
+
 
                         .title{
                             width:100%;
@@ -205,6 +241,10 @@ const InfomationContainer = styled.div`
                             font-size:20px;
                             font-weight: 600;
                             margin-bottom:10px;
+
+                            ${mq.maxWidth('md')`
+                                font-size:24px;
+                            `}
                         }
 
                         .subTit{
@@ -212,6 +252,10 @@ const InfomationContainer = styled.div`
                             height:100%;
                             font-size: 14px;
                             color:#959595;
+
+                            ${mq.maxWidth('md')`
+                                font-size:16px;
+                            `}
                         }
                     }
                 }
@@ -281,13 +325,13 @@ const Infomation = memo(() => {
                             className="glider-container"
                             hasArrows
                             slidesToShow={4}
-                            slidesToScroll={1}
+                            slidesToScroll={4}
                             scrollLock
                             iconLeft={<div className='prevButton' style={{fontSize:"50px", transform: "translate(-50px, 20px)"}}><i className="fa-solid fa-chevron-left button"></i></div>}
                             iconRight={<div className='nextButton' style={{fontSize:"50px", transform: "translate(50px, 20px)"}}><i className="fa-solid fa-chevron-right button"></i></div>}
                             responsive={[
                                 {
-                                    breakpoint: 992,
+                                    breakpoint: 640,
                                     settings: {
                                         slidesToShow: "auto",
                                         slidesToScroll: "auto",

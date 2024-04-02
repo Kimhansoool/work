@@ -23,7 +23,6 @@ export const getList = createAsyncThunk("MonSupContentSlice/getList", async (pay
     }
 
     try {
-        // /api/paiksMenu?category=payload.kkk의값
         const response = await axios.get(API_URL, {
             params: myparams
         });
