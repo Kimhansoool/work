@@ -1,6 +1,6 @@
 import React, {memo} from 'react';
 
-const HeaderWrapper = memo(({element, ...props}) => {
+const WrapperRoute = memo(({element, ...props}) => {
   return (
     <>
         <div>{element}</div>
@@ -8,4 +8,4 @@ const HeaderWrapper = memo(({element, ...props}) => {
   );
 });
 
-export default HeaderWrapper;
+export default WrapperRoute;
